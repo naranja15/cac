@@ -1,0 +1,121 @@
+
+.overlay-gradient {
+  position: relative;
+}
+
+.overlay-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #4fc3f7, #8e24aa);
+  display: block;
+  opacity: 0.55;
+}
+
+.overlay-dark {
+  position: relative;
+}
+
+.overlay-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  display: block;
+  opacity: 0.55;
+}
+
+.overlay-content {
+  z-index: 99;
+  position: relative;
+  margin-top: 10rem;
+  width: 50%;
+  float: right;
+}
+
+
+.navbar {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.col-6 {
+  display: flex;
+}
+
+.card-img {
+  height: 67rem;
+}
+
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 60vh;
+  height: 450px;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.top-content {
+  width: 100%;
+  padding: 60px 0 120px 0;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #96c93e;
+  border-color: #96c93e;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: #a4d949;
+  border-color: #a4d949;
+}
+
+.orador {
+  text-align: center;
+}
+.orador h5,
+h1 {
+  text-transform: uppercase;
+}
+.orador h6 {
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.btn-outline-green {
+  color: #0dac50;
+  border-color: #0dac50;
+}
+.btn-outline-green:hover {
+  color: #fff;
+  background-color: #1dbc60;
+  border-color: #1dbc60;
+}
+
+.texto {
+  padding: 14.5% 8.5%;
+}
+
+.footer {
+  color: rgba(204, 185, 185, 0.55);
+}
+.footer:hover {
+  color: white;
+}
