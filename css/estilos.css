@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .overlay-gradient {
   position: relative;
@@ -45,9 +50,9 @@
   padding-right: 3.5rem;
 }
 
-.col-6 {
+/* .col-6 {
   display: flex;
-}
+} */
 
 .card-img {
   height: 67rem;
